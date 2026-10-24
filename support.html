@@ -28,11 +28,13 @@
     <p>随手打码是一个截图打码、长图拼接工具。下面是常见问题；如需帮助，欢迎邮件联系我们。</p>
     <h2>常见问题</h2>
     <p class="q">怎么给截图打码？</p>
-    <p>在 App 里选「选图打码」选一张截图，用手指拖动框选要遮挡的区域，选马赛克或纯色块，然后保存/拷贝/分享。也可以截图后在系统分享面板里点「随手打码」直接打码。</p>
+    <p>在 App 里选「选图打码」选一张截图，用手指拖动框选要遮挡的区域，或切到「涂抹」直接涂（涂多了用「橡皮」擦回），样式选马赛克或色块，然后保存/拷贝/分享。也可以截图后在系统分享面板里点「随手打码」直接打码，完成后点「保存并关闭」存进相册。密码、卡号等敏感数字建议用色块。</p>
     <p class="q">怎么把多张截图拼成长图？</p>
-    <p>选「长截图拼接」→ 多选截图 → 点选要拼的、可调整顺序 → 「拼接」。会自动检测重叠并去重。</p>
+    <p>选「长截图拼接」→ 多选截图 → 点选要拼的、可调整顺序 → 「拼接」→ 在「圈定固定栏」页确认上下两条线（把状态栏、底部标签栏圈在外面，线要切进滚动内容一点）→「开始拼接」。会自动检测重叠并去重；个别接缝没对齐时，可在结果页点「微调接缝」手动调整。</p>
     <p class="q">"录屏转长图"怎么用？</p>
-    <p>iOS 不允许第三方 App 自动滚动别的 App，所以请打开系统录屏、边匀速慢滚边录制你要保存的聊天/页面，停止后回到 App，会自动把录屏拼成一张长图。</p>
+    <p>iOS 不允许第三方 App 自动滚动别的 App，所以改用录屏：在「录屏转长图」页点「开始录屏」并选择「随手打码录屏」，切到要保存的聊天/页面匀速慢滚，再点屏幕顶部的红点停止。停止后点「录屏完成」通知回到 App（没开通知就自己切回来），按提示选取片段、圈定固定栏，就拼成一张长图。录屏不会存进相册；也可以直接选一段相册里已有的录屏。</p>
+    <p class="q">为什么会请求通知权限？</p>
+    <p>只为了在录屏结束时提醒你回到 App——iOS 不允许 App 自己切回前台。这是设备本地发出的通知，不经过任何服务器；不允许也能正常使用，录完自己切回 App 即可。</p>
     <p class="q">我的图片会被上传吗？</p>
     <p>不会。全程在你的设备本地处理，App 不联网、不上传、不收集任何数据。导出还会自动去除 EXIF/GPS 等元数据。</p>
     <p class="q">需要注册账号吗？</p>
@@ -49,11 +51,13 @@
     <p>Snap Censor is a screenshot mosaic &amp; long-screenshot tool. Common questions below — for anything else, email us.</p>
     <h2>FAQ</h2>
     <p class="q">How do I censor a screenshot?</p>
-    <p>Choose "Censor a Photo", pick a screenshot, drag to select the area to hide, choose mosaic or a solid block, then save / copy / share. You can also tap "Snap Censor" in the system share sheet right after taking a screenshot.</p>
+    <p>Choose "Censor a Photo", pick a screenshot, then drag to box the area to hide, or switch to Brush and paint over it (Eraser wipes back anything you over-painted). Pick Mosaic or Solid, then save / copy / share. You can also tap Snap Censor in the system share sheet right after taking a screenshot, then tap Save &amp; Close to save the result to Photos. For passwords or card numbers, prefer Solid.</p>
     <p class="q">How do I stitch multiple screenshots?</p>
-    <p>Choose "Stitch Long Screenshot" → multi-select screenshots → pick which to include and reorder → Stitch. Overlaps are detected and removed automatically.</p>
+    <p>Choose "Stitch Long Screenshot" → multi-select screenshots → pick which to include and reorder → Stitch → on the Mark Fixed Bars screen, check the two lines (keep the status bar and bottom tab bar outside them, cutting slightly into the scrolling content) → Stitch. Overlaps are detected and removed automatically; if a seam is off, tap Adjust Seams on the result screen to fix it by hand.</p>
     <p class="q">How does "Recording → Long Image" work?</p>
-    <p>iOS doesn't let third-party apps auto-scroll other apps, so start the system screen recording, scroll slowly and steadily through the chat/page, stop, and return to the app — it stitches the recording into one long image.</p>
+    <p>iOS doesn't let third-party apps auto-scroll other apps, so the app uses a screen recording instead: on the Recording → Long Image screen tap Start Recording and choose “Snap Censor Recorder”, switch to the chat/page you want and scroll slowly and steadily, then stop via the red indicator at the top. Tap the “Recording finished” notification to come back (or switch back yourself), trim the clip and mark the fixed bars as prompted, and the long image is built. The recording is not saved to Photos; you can also pick an existing recording from your library.</p>
+    <p class="q">Why does the app ask for notification permission?</p>
+    <p>Only to bring you back to the app when a recording finishes — iOS doesn't let an app return to the foreground by itself. The notification is generated locally on your device with no server involved, and everything works without it: just switch back to the app yourself.</p>
     <p class="q">Are my images uploaded?</p>
     <p>No. Everything is processed on your device. The app has no network access, uploads nothing, and collects no data. Exports also strip EXIF/GPS metadata.</p>
     <p class="q">Do I need an account?</p>
